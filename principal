@@ -96,7 +96,9 @@ Para crear una nueva rama y saltar a ella, en un solo paso
 -----------------------------------------
 Sigo la rama del server y la creo en mi local sincronizando
 -----------------------------------------
-$ git checkout --track origin/serverfix
+$ git fetch (makes sure you have remote branch in local repository).
+git branch --track branch-name origin/branch-name  
+(creates local branch which tracks remote branch. It assumes that your remote name is origin)
 
 -------------------------------------------
 Cambio a master y fusiono hotfix a master
