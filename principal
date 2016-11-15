@@ -105,6 +105,11 @@ $ git fetch (makes sure you have remote branch in local repository).
 git branch --track branch-name origin/branch-name  
 (creates local branch which tracks remote branch. It assumes that your remote name is origin)
 
+----------------------------------------------
+pongo a seguir develop local (ya exsistente) a develop remoto
+--------------------------------------
+git branch -u origin/develop
+
 -------------------------------------------
 Cambio a master y fusiono hotfix a master
 --------------------------------------------
